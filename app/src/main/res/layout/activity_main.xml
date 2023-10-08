@@ -21,10 +21,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:autoText="false"
         android:ems="10"
         android:hint="@string/nome_usuario"
-        android:inputType="numberDecimal"
+        android:inputType="textPersonName"
         android:maxLength="10"
+        android:text="xxxxx"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_titulo" />
